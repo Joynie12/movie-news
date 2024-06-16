@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #news {
+    margin-top: 20px;
+  }
+  
+  .skeleton {
+    background: #eee;
+    height: 20px;
+    margin: 10px 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  

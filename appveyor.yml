@@ -1,0 +1,18 @@
+version: 1.0.{build}
+image: Ubuntu1804
+
+install:
+  - npm install
+
+build_script:
+  - npm run build
+
+artifacts:
+  - path: /dist
+    name: my-artifacts
+
+deploy:
+  provider: GitHubPages
+  artifact: my-artifacts
+  on:
+    branch: main
